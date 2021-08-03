@@ -4,8 +4,8 @@ Note|Description
 :----|:----
 Initial macOS Support|OS X 10.7, Lion.
 
-- Opencore version: 0.7.1
-- Release date: 22/07/2021
+- Opencore version: 0.7.2
+- Release date: 03/08/2021
 
 # Basic Steps
 
@@ -121,6 +121,13 @@ iMac13,1|Used for computers utilizing the iGPU for displaying.
 iMac13,2|Used for computers using a dGPU for displaying, and an iGPU for computing tasks only.
 iMac14,4|Big Sur **ONLY**. Used for computers utilizing the iGPU for displaying.
 iMac15,1|Big Sur **ONLY**. Used for computers using a dGPU for displaying, and an iGPU for computing tasks only.
+
+# Catalina and older versions of macOS
+
+- Please configure `MinDate` and `MinVersion` in UEFI > APFS to `-1`;
+- Please configure `SecureBootModel` in Misc > Security to `j137`;
+
+\* *Without above settings, macOS will not be able to boot.*
 
 # Special notes
 
