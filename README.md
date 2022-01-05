@@ -123,6 +123,7 @@ iMac13,1|Used for computers utilizing the iGPU for displaying.
 iMac13,2|Used for computers using a dGPU for displaying, and an iGPU for computing tasks only.
 iMac14,4|Big Sur **ONLY**. Used for computers utilizing the iGPU for displaying.
 iMac15,1|Big Sur **ONLY**. Used for computers using a dGPU for displaying, and an iGPU for computing tasks only.
+MacPro6,1|Monterey **ONLY**. As Monterey does not include iGPU drivers, you will want to use MacPro6,1 and a supported dGPU.
 
 # Catalina and older versions of macOS
 
